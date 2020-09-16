@@ -25,8 +25,9 @@ public class StackDemo1 {
     }
 
     public static void main(String[] args) {
+        //处理数据源
+        String source = "((15/(7-(1+1)))*3)-(2+(1+1))";
         //逆波兰表达式
-        String source = "15711+-/3*211++-";
         StringBuilder suffixExpression = new StringBuilder();
         //操作数栈
         Stack<String> operationStack = new Stack<>();
